@@ -1,4 +1,6 @@
 module Paramable
-  def 
+  def to_param
+    
+  end
   
 end
