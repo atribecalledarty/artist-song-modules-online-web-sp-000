@@ -1,6 +1,6 @@
 module Paramable
   def to_param
-    name.downcase()
+    name.downcase.gsub(' ', '-')
   end
   
 end
